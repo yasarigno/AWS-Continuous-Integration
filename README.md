@@ -158,6 +158,35 @@ git commit -m "adding initial structures"
 
 The first time we set up your project, we'll need to do the configuration below either in a file or manually, like I'm going to do it here:
 
+```
+
+git config --global user.name "Your Name"
+
+git config --global user.email you@example.com
+  
+```
+
+Then this:
+```
+git commit --amend --reset-author
+
+```
+Here we do ``control + O``and ``control + X``
+
+Okay. Hopefully we do not need to do this at every push operation.
+
+It remains to push our files:
+
+```
+git push
+```
+
+If there are any errors try first ``git pull`` then ``git push``
+
+Et voilà, finito.
+
+
+
 
 
 
