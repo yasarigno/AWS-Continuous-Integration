@@ -74,6 +74,10 @@ lint:
 	
 test:
 	python -m pytest -vv --cov=hello test_hello.py
+	
+# We can do all these together :
+
+all: install lint test
   
 ```
 7. Write the requirements file
@@ -91,7 +95,70 @@ pytest-cov
 ```
 make install
 ```
-9.
+
+9. I wrote a simple function. Later on we can change it with a useful code.
+
+```python
+def add(x, y):
+    return x + y
+    
+def multiply(x, y):
+    return x * y
+
+result = add(1, 2)
+
+print(f"The sum of {1} and {2} is {result}.")
+
+result2 = multiply(3,4)
+
+print(f"The multiple of {3} and {4} is {result2}.")
+```
+In order to see the results type
+
+```
+python hello.py
+```
+
+and a test file: 
+
+```python
+
+from hello import add, multiply
+
+def test_add():
+    assert add(3, 4) == 7
+    
+def test_multiply():
+    assert multiply(3, 9) == 27
+```
+
+10. After writing some code, we can use other commands. ``make format`` will beautify our code; ``make lint`` will check it up; and ``make test`` will run the tests. It is possible to perform all these operations at once using ``make all``.
+
+11. It is time to transfer it to GitHub.
+
+Check out the current status:
+
+```
+git status
+```
+
+Add all (stage all)
+
+```
+git add *
+```
+
+Verify that they are now in green by writing ``git status``. **That means they are ready to push**
+
+We now commit it to the main branch
+
+```
+git commit -m "adding initial structures"
+```
+
+The first time we set up your project, we'll need to do the configuration below either in a file or manually, like I'm going to do it here:
+
+
 
 
 
