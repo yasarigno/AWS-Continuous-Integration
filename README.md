@@ -1,5 +1,7 @@
 # AWS Continuous Integration via GitHub Actions
 
+[![Python application test with Github Actions](https://github.com/yasarigno/AWS-Continuous-Integration/actions/workflows/main.yml/badge.svg)](https://github.com/yasarigno/AWS-Continuous-Integration/actions/workflows/main.yml)
+
 I built an AWS Cloud9 development environment and integrate it with GitHub Actions. The project contains a simple algorithm written in Python. I plan to change it with a more useful one.
 Here you will find out what [Continuous Integration](https://aws.amazon.com/devops/continuous-integration/) is.
 
