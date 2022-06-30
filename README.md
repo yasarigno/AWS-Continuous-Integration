@@ -185,7 +185,10 @@ git push
 If there are any errors try first ``git pull`` then ``git push``
 
 **Et voilà, finito.**
+---
+---
 
+(BONUS)
 12. You made change on GitHub, do: ``git pull``
 13. You made change on Cloud9, do:
 
