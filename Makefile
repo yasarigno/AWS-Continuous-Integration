@@ -11,3 +11,6 @@ lint:
 test:
 	python -m pytest -vv --cov=hello test_hello.py
 	
+# We can do all these together :
+
+all: install lint test
