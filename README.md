@@ -3,7 +3,7 @@ I built an AWS Cloud9 development environment and integrate it with GitHub Actio
 Here you will find out what [Continuous Integration](https://aws.amazon.com/devops/continuous-integration/) is.
 
 <p align="center">
-<img align="center" src="files\continuous integration.png" style="width: 300px" />
+<img align="center" src="files\continuous_integration.png" style="width: 400px" />
 </p>
 
 ## Construction steps to follow :
