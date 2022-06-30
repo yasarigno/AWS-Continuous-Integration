@@ -1,6 +1,6 @@
 # AWS-Continuous-Integration
 I built an AWS Cloud9 development environment and integrate it with GitHub Actions. The project contains a simple algorithm written in Python. I plan to change it with a more useful one.
-
+Here you will find out what Continuos Integration [is](https://aws.amazon.com/devops/continuous-integration/).
 ## Steps to follow :
 
 1. Create the files on Cloud9
