@@ -208,6 +208,10 @@ git commit -m "your comment here"
 
 git push
 ```
+
+14. Once you reopen the Cloud9 IDE do not forget to go to the virtual environment **AWS-Continuous-Integration** via ``cd AWS-Continuous-Integration``
+
+
 That's all.
 
 
