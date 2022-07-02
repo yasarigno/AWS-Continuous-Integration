@@ -61,7 +61,7 @@ touch requirements.txt
 python3 -m venv ~/.AWS-Continuous-Integration
 ```
 
-then activate it (_-m stands for module). I name this new VE as same as I did for the folder i.e. **AWS-Continuous-Integration**
+then activate it _(-m stands for module). I name this new VE as same as I did for the folder i.e. **AWS-Continuous-Integration**_
 
 ```
 source ~/.AWS-Continuous-Integration/bin/activate
@@ -181,7 +181,7 @@ Then this:
 git commit --amend --reset-author
 
 ```
-Here we do ``control + O``and ``control + X``
+Here we do first ``control + O`` and then ``control + X``.
 
 Okay. Hopefully we do not need to do this at every push operation.
 
